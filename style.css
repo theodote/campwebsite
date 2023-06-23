@@ -1,0 +1,431 @@
+/* Font */
+
+/* cyrillic */
+@font-face {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOy8mJrrg.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOwcmJrrg.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/russoone/v14/Z9XUDmZRWg6M1LvRYsHOz8mJ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIvtg2H68T.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIvtE2H68T.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* greek */
+  @font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIvtY2H68T.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIvto2H68T.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIvts2H68T.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/play/v17/6aez4K2oVqwIvtU2Hw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, div {
+    font-family: 'Russo One';
+    font-weight: 400;
+}
+
+p, a, ul, ol, li {
+    font-family: 'Play';
+}
+
+/* Main page */
+
+/* Amina */
+
+.gallery img {
+    width: 250px;
+    height: 160px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow:  0 12px 18px rgb(4 21 43 / 30%);
+    transition: all 0.2s linear;
+}
+
+.gallery img:hover{
+    background-color:lightsteelblue ;
+    transition: all 0.2s linear;
+}
+
+.Amina .gallery {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.Amina .container {
+    background-color: #6610f2;
+}
+
+.item {
+    color: #FBFBFF;
+    font-size: 23px;
+    position: relative;
+}
+
+#copyright {
+    padding: 20px;
+}
+
+.btn {
+    color: #6610f2;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+}
+
+a {
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.polit {
+    font-size: 19px;
+    margin: 13px;
+}
+
+.tel {
+    margin: 30px;
+}
+
+.lol {
+   text-align:center; 
+   top: -44px;
+   left:250px;
+   position: absolute;
+}  
+
+.vov {
+   text-align:center; 
+   top: -44px;
+   left:390px;
+   position: absolute;
+} 
+
+.bob {
+   text-align:center; 
+   top: -44px;
+   left:530px;
+   position: absolute;
+} 
+
+.social {
+    width: 80px;
+    height: 70px;
+    margin: 10px;
+}
+
+/* Markos */
+
+.honda2005 {
+    font-size:x-large;
+    display: block;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    background-color: #d24223;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width:fit-content;
+    border-radius: 10px;
+    box-shadow: 0 12px 18px rgb(4 21 43 / 30%);
+    transition: all 0.1s linear;
+}
+
+.honda2005:hover {
+    box-shadow: 0 0 5px rgb(4 21 43 / 30%);
+    color: #d24223;
+    background-color: white;
+    transition: all 0.1s linear;
+}
+
+.mark h1 {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    text-align: center;
+    display: inline;
+    margin: auto;
+    color: rgb(27, 3, 49);
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.mark a {
+    margin: 20px 0 0 10px;   
+    padding: 10px 10px 10px 10px;
+}
+
+.mark {
+    height: 95px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 3, 49);
+}
+
+/* Masha */
+
+.masha {
+    font-family: sans-serif;
+    background-color: #6f42c1;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 1000px;
+}
+
+.masha h1 {
+    color:#FDFEFE ;
+    font-style: italic;
+    font-size:60px;
+    text-align: center;
+    margin: 10px;
+}
+
+.masha p {
+    color: #FDFEFE;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Mika */
+
+.mikaoriginaltablitsaclassforbackgroundcolorandotherstuff h2 {
+    color: white;
+    text-align: center;
+}
+
+.mika2 h1 {
+    text-align: center;
+}
+
+.tablitsa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;    
+}
+    
+.mikaoriginaltablitsaclassforbackgroundcolorandotherstuff {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 12px 18px rgb(4 21 43 / 30%);
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2071f9;
+}
+
+.mikaoriginaltablitsaclassforbackgroundcolorandotherstuff ul {
+    color: white;
+    font-size: larger;
+}
+    /*.mikaoriginaltablitsaclassforbackgroundcolorandotherstuff:hover {
+    
+    transform: scale(2);
+    
+    
+    }*/
+.knopkidiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px
+}
+
+.knopkidiv a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+    
+.knopkidiv .btn {
+    padding: 40px;
+    transition: all  0.2s linear;
+    height: 50px;
+    max-width: 15%;
+    margin: 10px 5px 10px 5px;
+}
+
+.knopkidiv .btn:hover {
+    transform: scale(110%);
+    background-color: #D8451F;
+    transition: all  0.2s linear;
+}
+
+/* Nastya */
+
+.anastasia{
+    display: block;
+    margin: auto;
+    width: 72px;
+    background-color: rgb(152, 195, 231);
+    padding: 5px;
+    color: white;
+    text-decoration: underline;
+    
+}
+
+/* Nika */
+
+.Nika {
+    display: block;
+    margin: 20px 20px 0px 0px;
+    float: right;
+    text-align: center;
+    color: white;
+}
+
+.Nika ul {
+    list-style-type: none;
+}
+
+.Nika p {
+    font-style: italic;
+}
+
+/* Sasha */
+
+.Sasha1 .social {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.Sasha1 .social img {
+    display: block;
+}
+
+.Sasha1 * {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Sasha1 a:hover {
+    background-color: rgb(166, 197, 233);
+    transition: 0.3s linear;
+}
+
+.Sasha1 a {
+    text-decoration: none;
+    font-size: 90px;
+    background-color:royalblue;
+    padding: 10px;
+    color: purple;
+    border-radius: 30px;
+    transition: 0.3s linear;
+}
+
+/* .Sasha1 .logo {
+    transform: translateY(20px);
+} */
+
+.Sasha1 .p1 {
+    color: black;
+    font-size: 20px;
+    background-color: blueviolet;
+    text-align: center;
+    width: 180px;
+    border-bottom: 5px solid rgb(0, 2, 128);
+}
+.Sasha1 .p2 {
+    display: block;
+    font-size:medium;
+    color: white;
+    background-color:royalblue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 12px 18px rgb(4 21 43 / 30%);
+}
+
+/* Mine */
+
+.robobutton {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.robobutton p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.robobutton img {
+    display: inline;
+}
+
+footer {
+    margin-top: 50px;
+}
