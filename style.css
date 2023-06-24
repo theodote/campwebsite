@@ -94,8 +94,8 @@ p, a, ul, ol, li {
 /* Amina */
 
 .gallery img {
-    width: 250px;
-    height: 160px;
+    width: 500px;
+    height: 320px;
     padding: 15px;
     margin: 10px;
     box-shadow:  0 12px 18px rgb(4 21 43 / 30%);
@@ -104,6 +104,7 @@ p, a, ul, ol, li {
 
 .gallery img:hover{
     background-color:lightsteelblue ;
+    transform:scale(1.1);
     transition: all 0.2s linear;
 }
 
@@ -328,8 +329,8 @@ a {
 .anastasia{
     display: block;
     margin: auto;
-    width: 72px;
-    background-color: rgb(152, 195, 231);
+    width: fit-content;
+    background-color: #d24223;
     padding: 5px;
     color: white;
     text-decoration: underline;
